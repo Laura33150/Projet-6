@@ -1,4 +1,5 @@
 const sauces = require('../models/sauces')
+const fs = require('fs') 
 
 // Récuperer la liste de toutes les sauces
 exports.getAllSauces = (req, res, next) => {
